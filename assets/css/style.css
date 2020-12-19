@@ -1,0 +1,190 @@
+/*Reset Code Start*/
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+a {
+	text-decoration: none;
+}
+/*Reset Code End*/
+
+.facebook {
+	background-color: #F0F2F5;
+	height: 725px;
+}
+
+.facebook .container {
+	width: 985px;
+	margin: 0px auto 0px;
+	padding: 130px 0px 200px 0px;
+}
+
+/*first part start*/
+.facebook .first {
+	width: 60%;
+	float: left;
+	text-align: start;
+}
+.facebook .first img {
+	width: 300px;
+}
+.facebook .first h2 {
+	font-size: 28px;
+	font-weight: normal;
+	line-height: 32px;
+	padding-left: 30px;
+	padding-right: 16px;
+	color: #1c1e21;
+}
+/*first part end*/
+
+
+
+/*second part start*/
+.facebook .second {
+	width: 40%;
+	float: left;
+	text-align: center;
+}
+.facebook .second .login {
+	background-color: #fff;
+	padding: 20px 0px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+	border-radius: 6px;
+}
+.facebook .second .login input {
+	padding: 14px 16px;
+	width: 80%;
+	border: 1px solid #dddfe2;
+	color: #1d2129;
+	font-size: 17px;
+	border-radius: 6px;
+	margin: 6px;
+}
+.facebook .second .login input:focus {
+	border: 1px solid #1877F2;
+	outline:none;
+
+}
+.facebook .second .login button {
+	width: 89%;
+	padding: 14px 16px;
+	margin-top: 7px;
+	background-color: #1877F2;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 6px;
+	border: none;
+	cursor: pointer;
+}
+.facebook .second .login .fp {
+	display: inline-block;
+	color: #1877f2;
+	font-size: 14px;
+	font-weight: 500;
+	cursor: pointer;
+	padding-top: 22px;
+	padding-bottom: 24px;
+}
+.facebook .second .login .fp:hover {
+	text-decoration: underline;
+}
+.facebook .second .login hr {
+	display: inline-block;
+	width: 90%;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: 1px solid #dadde1;
+	margin-bottom: 16px;
+}
+.facebook .second .login .cna {
+	background-color: #42b72a;
+	color: #fff;
+	padding: 14px 16px;
+	border-radius: 6px;
+	cursor: pointer;
+	font-size: 17px;
+	font-weight: 600;
+	line-height: 48px;
+}
+.facebook .second p {
+	padding-top: 30px;
+	color: #000;
+	font-size: 14px;
+}
+
+.facebook .second p a {
+	color: #000;
+	font-size: 14px;
+	font-weight: 600;
+	cursor: pointer;
+}
+.facebook .second p a:hover {
+	text-decoration: underline;
+}
+
+/*second part end*/
+
+/*footer start*/
+.footer {
+	background-color: #fff;
+	width: 980px;
+	margin: auto;
+}
+.footer hr {
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: 1px solid #dadde1;
+}
+/*list1 start*/
+.footer .list1 ul {
+	padding-left: 0px;
+	text-align: start;
+}
+.footer .list1 ul li {
+	display: inline-block;
+	padding-right: 4px;
+	padding-bottom: 12px;
+	padding-top: 24px;
+}
+.footer .list1 ul li a {
+	color: #8a8d91;
+	font-size: 12px;
+}
+.footer .list1 ul li a:hover {
+	text-decoration: underline;
+}
+/*list1 end*/
+
+/*list2 start*/
+.footer .list2 ul {
+	padding-left: 0px;
+	text-align: start;
+	padding-right: 16%;
+	padding-top: 3px;
+}
+.footer .list2 ul li {
+	display: inline-block;
+	padding-right: 7px;
+	padding-top: 4px;
+}
+.footer .list2 ul li a {
+	color: #8a8d91;
+	font-size: 12px;
+}
+.footer .list2 ul li a:hover {
+	text-decoration: underline;
+}
+.footer p {
+	font-size: 11px;
+	color: #737373;
+	line-height: 15px;
+	padding-top: 26px;
+}
+/*list2 end*/
+
+/*footer end*/
